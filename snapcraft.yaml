@@ -102,3 +102,5 @@ parts:
       - CFLAGS: -I$SNAPCRAFT_STAGE/usr/local/include
       - LDFLAGS: -L$SNAPCRAFT_STAGE/usr/local/lib
       - PKG_CONFIG_PATH: $SNAPCRAFT_STAGE/usr/local/lib/pkgconfig/
+    stage:
+      - -lib64
