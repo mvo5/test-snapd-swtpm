@@ -87,6 +87,7 @@ parts:
     build-packages:
       - libfuse-dev
       - libglib2.0-dev
+      - libjson-glib-dev
       - libgmp-dev
       - expect
       - libtasn1-dev
